@@ -11,7 +11,6 @@ export class CompanyEnrichApi implements ICredentialType {
 	displayName = 'Company Enrich API';
 	documentationUrl = 'https://docs.companyenrich.com/reference';
 	icon = 'file:../icons/companyenrich.png' as Icon;
-	testedBy = 'companyEnrich';
 	properties: INodeProperties[] = [
 		{
 			displayName: 'API Key',

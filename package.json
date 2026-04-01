@@ -11,7 +11,7 @@
 		"url": "https://github.com/kovanio/companyenrich-n8n.git"
 	},
 	"license": "MIT",
-	"homepage": "",
+	"homepage": "https://github.com/kovanio/companyenrich-n8n",
 	"keywords": [
 		"n8n-community-node-package"
 	],
@@ -29,7 +29,6 @@
 	],
 	"n8n": {
 		"n8nNodesApiVersion": 1,
-		"strict": false,
 		"credentials": [
 			"dist/credentials/CompanyEnrichApi.credentials.js"
 		],

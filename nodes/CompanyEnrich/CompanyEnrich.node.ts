@@ -4,6 +4,7 @@ import {
 	INodeType,
 	INodeTypeDescription,
 	NodeConnectionTypes,
+	NodeApiError,
 	IDataObject,
 	IHttpRequestMethods,
 } from 'n8n-workflow';
@@ -504,7 +505,7 @@ export class CompanyEnrich implements INodeType {
 					returnData.push(...executionData);
 					continue;
 				}
-				throw error;
+				throw new NodeApiError(this.getNode(), error);
 			}
 		}
 
