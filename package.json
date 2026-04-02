@@ -8,7 +8,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/kovanio/companyenrich-n8n.git"
+		"url": "git+https://github.com/kovanio/companyenrich-n8n.git"
 	},
 	"license": "MIT",
 	"homepage": "https://github.com/kovanio/companyenrich-n8n",
